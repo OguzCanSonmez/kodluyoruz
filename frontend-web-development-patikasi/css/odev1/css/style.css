@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* header - start */
+.text-center, h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  color: #fd5252;
+}
+
+h2 {
+  color: #32021F;
+}
+
+h3 {
+  color: #B9A44C;
+  text-decoration: underline;
+}
+
+nav ul {
+  list-style-type: none;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  border-radius: 0.5rem;
+
+  /* border: 1px solid red; */
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid;
+}
+
+nav ul li a:hover {
+  background-color: #084b83;
+  color: #FFF;
+}
+/* header - end */
+
+/* index - start */
+main#anasayfa ul {
+  list-style-position: inside;
+}
+/* index - end */
+
+/* products - start */
+.urunler {
+  text-align: center;
+  list-style-position: inside;
+}
+
+ol.urunler li {
+  margin-bottom: 3rem;
+}
+/* products - end */
