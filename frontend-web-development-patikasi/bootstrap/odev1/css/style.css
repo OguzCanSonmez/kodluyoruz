@@ -1,0 +1,54 @@
+body {
+  background-color: #E9ECEF;
+}
+
+/* header - start */
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  line-height: 3.5rem!important;
+}
+
+nav ul li a {
+  text-decoration: none!important;
+  display: inline-block;
+  padding: 0 0.5rem;
+  vertical-align: sub;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #dc3545;
+}
+/* header - end */
+
+/* main - start */
+main ul {
+  list-style-position: inside;
+}
+
+h2 {
+  color: #a11aa1;
+}
+
+h3 {
+  color: #d19e05;
+}
+
+.card {
+  margin-bottom: 2rem;
+}
+
+.card-body span {
+  padding: 0.5rem;
+  background-color: gray;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
+/* main - end */
