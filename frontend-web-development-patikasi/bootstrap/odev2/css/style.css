@@ -1,9 +1,17 @@
+body {
+  background-color: #fafafa;
+  padding-top: 80px;
+}
+
 ::placeholder{
   text-align: center;
   font-size: 14px;
   color: gray;
+  background-image: url('../assets/search-solid.svg');
+  background-repeat: no-repeat;
   background-position: 40%;
   background-size: 6%;
+  padding-left: 29px;
 }
 
 input.empty {
@@ -43,4 +51,26 @@ input.empty {
 .rightpanellinks:hover {
   text-decoration: none;
   color: lightgrey;
+}
+
+nav {
+  height: 54px;
+}
+
+.logo {
+  margin-left: 192px;
+}
+
+.middlearea {
+  max-height: 200px!important;
+}
+
+#sticky-sidebar {
+  position: sticky!important;
+  top: 80px;
+}
+
+.rightpanel {
+  background-color: #FFF;
+  border: 0;
 }
