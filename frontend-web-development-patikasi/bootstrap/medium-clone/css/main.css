@@ -1,0 +1,31 @@
+body {
+  font-family: 'PT Serif', serif;
+}
+
+.bg-blue {
+  background-color: #c4e2ff;
+}
+
+.border-bottom-dark {
+  border-bottom: 1px solid rgba(41, 41, 41, 1);
+}
+
+.svg-logo {
+  height: 25px;
+}
+
+.border-radius {
+  border-radius: 99em;
+}
+
+.navbar-nav li:last-of-type {
+  background-color: #191919;
+}
+
+.aside-buttons > li {
+  margin-bottom: 10px;
+}
+
+.mt-6 {
+  margin-top: 75px;
+}
